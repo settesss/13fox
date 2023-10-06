@@ -25,7 +25,9 @@ $(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
-    arrows: false
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
   })
 
   $('#works__slider-prev').on('click', function (e) {

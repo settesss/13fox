@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   line-height: 1.2;
   color: #fff;
+  overflow: hidden;
 }
 
 h1 {
@@ -60,8 +61,18 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
+  min-height: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  scroll-snap-stop: always / normal;
+}
+
+.wrapper > * {
+  scroll-snap-align: end;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -148,8 +159,7 @@ textarea:focus {
 }
 
 .footer {
-  display: flex;
-  height: 100vh;
+  min-height: 100vh;
   background: url("/img/background/footer-shape.png") 0 0 / cover no-repeat fixed, linear-gradient(to right, #4C3D78, #201542);
 }
 
@@ -161,7 +171,7 @@ textarea:focus {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   background: url("/img/background/header-shape.png") 0px 0 / 55% no-repeat, url("/img/background/header-shadow.png") 0 0 / cover no-repeat, url("/img/background/header-circles.png") 0px -115px / cover no-repeat, #150B33;
   font-size: 24px;
   font-family: Grava, Arial, Helvetica, sans-serif;
@@ -192,10 +202,6 @@ textarea:focus {
   height: 100%;
   padding-right: 30px;
 }
-
-.logo {}
-
-.header__nav {}
 
 .header__nav-list {
   display: flex;
@@ -337,8 +343,6 @@ textarea:focus {
 .header__arrow-down:hover svg {
   animation: translateY 0.3s forwards;
 }
-
-.header__more {}
 
 /* ===================================== OPPORTUNITIES ===================================== */
 /* ===================================== OPPORTUNITIES ===================================== */
@@ -526,30 +530,34 @@ textarea:focus {
   backdrop-filter: blur(15px);
 }
 
-.range {}
-
 .range__title {
   min-width: 300px;
 }
 
 .range__line {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
   height: 10px;
   width: 100%;
+  appearance: none;
+  background: #FFF;
   border-radius: 10px;
-  color: #ECECEC;
   outline: none;
   border: none;
   margin: 52px 0 32px 0;
 }
 
-.range__line::-ms-fill-lower {
+.range__line::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
   background: #9B5DE5;
+  cursor: pointer;
 }
 
-.range__line::-webkit-slider-thumb {
+.range__line::-moz-range-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 34px;
@@ -610,6 +618,7 @@ textarea:focus {
   display: flex;
   flex-direction: row;
   align-items: center;
+  min-height: 100%;
 }
 
 .phone-slider {
@@ -618,8 +627,6 @@ textarea:focus {
   max-width: 400px;
   margin-right: 120px;
 }
-
-.phone-slider__slide {}
 
 .phone-slider__slide img {
   max-width: 100%;
@@ -654,8 +661,6 @@ textarea:focus {
   font-weight: 350;
   line-height: 25px;
 }
-
-.works__list {}
 
 .works__list-item {
   position: relative;
@@ -693,14 +698,14 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 100%;
 }
 
 .bonuses__title {
   line-height: 35px;
   padding-bottom: 48px;
 }
-
-.bonuses__subtitle {}
 
 .bonuses__cards {
   display: flex;
@@ -809,8 +814,6 @@ textarea:focus {
   background-color: #F0DDE6;
 }
 
-.team__inner {}
-
 .team__title {
   padding-bottom: 90px;
   line-height: 35px;
@@ -881,8 +884,6 @@ textarea:focus {
   padding-bottom: 20px;
 }
 
-.team__post {}
-
 .team__dots .slick-dots {
   display: flex;
   justify-content: center;
@@ -923,7 +924,10 @@ textarea:focus {
 /* ===================================== FOOTER ===================================== */
 
 .footer__inner {
-  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
 }
 
 .footer__form {
@@ -986,10 +990,6 @@ textarea:focus {
   border-radius: 53px;
 }
 
-.form__name {}
-
-.form__email {}
-
 .form__advice {
   padding: 20px;
   border-radius: 20px;
@@ -1030,8 +1030,6 @@ textarea:focus {
   max-width: 415px;
 }
 
-.form__write {}
-
 .form__text {
   font-family: Raleway;
   font-size: 20px;
@@ -1039,8 +1037,6 @@ textarea:focus {
   line-height: 23px;
   letter-spacing: 0em;
 }
-
-.form__call {}
 
 .form__socials {
   justify-content: space-between;

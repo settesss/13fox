@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/favicons/colorize-favicon-120.svg  " type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>FOX</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <a class="header__logo logo" href="#">
+              <img src="/img/logos/logo.svg" alt="13FOX">
+            </a>
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#" data-hover="Наши возможности">
+                    Наши возможности
+                  </a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#" data-hover="Калькулятор">
+                    Калькулятор
+                  </a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#" data-hover="Портфолио">
+                    Портфолио
+                  </a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#" data-hover="Бонус">
+                    Бонус
+                  </a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#" data-hover="Наша команда">
+                    Наша команда
+                  </a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#" data-hover="Контакты">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__body">
+        <div class="container">
+          <div class="header__body-inner">
+            <div class="heading heading--center">
+              <h1 class="header__title heading__title">Мы создаём и продвигаем мобильные приложения</h1>
+            </div>
+            <button class="header__button">
+              <svg width="18" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect x="0.5" width="18" height="18" fill="url(#pattern0)" />
+                <defs>
+                  <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_820_4" transform="scale(0.0138889)" />
+                  </pattern>
+                  <image id="image0_820_4" width="72" height="72"
+                    xlink:href="data:image/png;base64,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" />
+                </defs>
+              </svg>
+              <span>Начать</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__bottom-inner">
+            <a class="header__arrow-down" href="#">
+              <p class="header__more">Узнать больше</p>
+              <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M79.1666 45.8333L50 70.8333L20.8333 45.8333" stroke="white" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M79.1666 29.1667L50 54.1667L20.8333 29.1667" stroke="white" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="/img/background/noise.jpg" alt="Noise" class="header__noise">
+    </header>
+
+    <div class="main">
+
+      <section class="main__opportunities opportunities">
+        <div class="container--padding container--slider container--center">
+          <div class="opportunities__inner">
+            <div class="opportunities__heading">
+              <h1 class="heading__title">Наши возможности</h1>
+              <div class="heading__text">Добро пожаловать в мир 13FOX - студии, которая воплощает в жизнь разные идеи!
+                Мы специализируемся на разработке и продвижении мобильных приложений, которые не только удовлетворяют
+                потребности наших клиентов, но и привлекают внимание многих пользователей по всему миру.<br><br>
+                Наша цель - создавать приложения, которые решают конкретные потребности пользователей. Обратитесь к нам
+                в 13FOX, чтобы воплотить ваши идеи в реальность.
+              </div>
+              <div class="slider__arrows">
+                <a class="slider-arrow slider-prev" id="opportunities__slider-prev" href="#">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke="#B5B9DB" stroke-width="2" />
+                    <path d="M32 24H16M16 24L22 18M16 24L22 30" stroke="#B5B9DB" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a class="slider-arrow slider-next" id="opportunities__slider-next" href="#">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke="#B5B9DB" stroke-width="2" />
+                    <path d="M16 24C25.3726 24 22.6274 24 32 24M32 24L26 18M32 24L26 30" stroke="#B5B9DB"
+                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="opportunities__slider">
+              <div class="opportunities__slide">
+                <div class="opportunities__slide-number">#01</div>
+                <h2 class="opportunities__slide-title">Разработка для Android и iOS</h2>
+                <p class="opportunities__slide-text">Создаём мобильные приложения для iOS и Android девайсов</p>
+              </div>
+              <div class="opportunities__slide">
+                <div class="opportunities__slide-number">#02</div>
+                <h2 class="opportunities__slide-title">Публикация в магазинах</h2>
+                <p class="opportunities__slide-text">Гарантируем публикацию в любых магазинах приложений</p>
+              </div>
+              <div class="opportunities__slide">
+                <div class="opportunities__slide-number">#03</div>
+                <h2 class="opportunities__slide-title">ASO оптимизация</h2>
+                <p class="opportunities__slide-text">Повышаем видимость вашего продукта в поиске магазина</p>
+              </div>
+              <div class="opportunities__slide">
+                <div class="opportunities__slide-number">#04</div>
+                <h2 class="opportunities__slide-title">ASO оптимизация</h2>
+                <p class="opportunities__slide-text">Повышаем видимость вашего продукта в поиске магазина</p>
+              </div>
+              <div class="opportunities__slide"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__price price">
+        <div class="container">
+          <div class="price__inner">
+            <div class="price__cards">
+              <div class="price__card card">
+                <div class="card__image-box">
+                  <img src="/img/price/price-1.jpg" alt="">
+                </div>
+                <p class="card__title">Простое приложение, что решает несложную задачу</p>
+                <h4 class="card__price">от 50 000 ₽</h4>
+              </div>
+              <div class="price__card card">
+                <div class="card__image-box">
+                  <img src="/img/price/price-2.jpg" alt="">
+                </div>
+                <p class="card__title">Приложение онлайн магазина или, может, курсов</p>
+                <h4 class="card__price">от 150 000 ₽</h4>
+              </div>
+              <div class="price__card card">
+                <div class="card__image-box">
+                  <img src="/img/price/price-3.jpg" alt="">
+                </div>
+                <p class="card__title">Полное продвижение с хорошим функционалом и поддержкой</p>
+                <h4 class="card__price">от 250 000 ₽</h4>
+              </div>
+            </div>
+            <h1 class="price__title ">Рассчитать стоимость приложения</h1>
+            <div class="price__container range">
+              <h3 class="range__title">Какой бюджет на создание приложения?</h3>
+              <label for="range__line">
+                <input type="range" class="range__line" id="range__line" min="70000" max="200000" value="92000"
+                  step="200" oninput="getActualPrice()">
+              </label>
+              <div class="range__interval">
+                <p class="range__interval-item">от 70,000 руб.</p>
+                <p class="range__interval-item">более 200,000 руб.</p>
+              </div>
+              <div class="number__container">
+                <p id="price__actual">92,000 руб.</p>
+              </div>
+              <button class="range__button button">
+                <p class="button__text">Вперед</p>
+                <div class="range__arrow-right">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.93 5.92993L21 11.9999L14.93 18.0699" stroke="white" stroke-width="1.5"
+                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M4 12H20.83" stroke="white" stroke-width="1.5" stroke-miterlimit="10"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__works works">
+        <div class="container">
+          <div class="works__inner">
+            <div class="phone-slider">
+              <div class="phone-slider__slide">
+                <img src="/img/works/slide-1.png" alt="">
+              </div>
+              <div class="phone-slider__slide">
+                <img src="/img/works/slide-2.png" alt="">
+              </div>
+              <div class="phone-slider__slide">
+                <img src="/img/works/slide-1.png" alt="">
+              </div>
+              <div class="phone-slider__slide">
+                <img src="/img/works/slide-2.png" alt="">
+              </div>
+            </div>
+            <div class="works__info">
+              <h1 class="works__title">Наши работы</h1>
+              <h3 class="works__subtitle">DoPlanner</h3>
+              <p class="works__text">Приложение – ежедневный список задач, разработанный с функционалом Trello, но
+                имеющий более удобный интерфейс и категории задач.</p>
+              <h3 class="works__subtitle subtitle--regular">Основные преимущества</h3>
+              <ul class="works__list">
+                <li class="works__list-item">
+                  <!-- <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8.49998" cy="7.99992" r="6.66667" stroke="#4644A8" stroke-width="1.5"/>
+                    <path d="M7.5 6L9.5 8L7.5 10" stroke="#4644A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg> -->
+                  <p class="works__list-text">Современный дизайн</p>
+                </li>
+                <li class="works__list-item">
+                  <!-- <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8.49998" cy="7.99992" r="6.66667" stroke="#4644A8" stroke-width="1.5"/>
+                    <path d="M7.5 6L9.5 8L7.5 10" stroke="#4644A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg> -->
+                  <p class="works__list-text">Аналог Trello и заметок объеденённый в систему категорий.</p>
+                </li>
+                <li class="works__list-item">
+                  <!-- <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8.49998" cy="7.99992" r="6.66667" stroke="#4644A8" stroke-width="1.5"/>
+                    <path d="M7.5 6L9.5 8L7.5 10" stroke="#4644A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg> -->
+                  <p class="works__list-text">Система обучения с подробной статистикой, для достижения максимальных
+                    результатов.</p>
+                </li>
+              </ul>
+              <div class="slider__arrows">
+                <a class="slider-arrow slider-prev" id="works__slider-prev" href="#">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke="#B5B9DB" stroke-width="2" />
+                    <path d="M32 24H16M16 24L22 18M16 24L22 30" stroke="#B5B9DB" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a class="slider-arrow slider-next" id="works__slider-next" href="#">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke="#B5B9DB" stroke-width="2" />
+                    <path d="M16 24C25.3726 24 22.6274 24 32 24M32 24L26 18M32 24L26 30" stroke="#B5B9DB"
+                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__bonuses bonuses">
+        <h1 class="bonuses__title">Бонусы</h1>
+        <div class="container">
+          <div class="bonuses__inner">
+            <h4 class="bonuses__subtitle">При заказе прямо сейчас с сайта</h4>
+            <ul class="bonuses__cards">
+              <li class="bonuses__card">
+                <span class="bonuses__number">01</span>
+                <div class="bonuses__card-container">
+                  <p class="bonuses__text">Бесплатное размещение в магазинах приложений AppStore и Google Play</p>
+                </div>
+              </li>
+              <li class="bonuses__card">
+                <span class="bonuses__number">02</span>
+                <div class="bonuses__card-container">
+                  <p class="bonuses__text">Составление описания приложения для лучшего продвижения в поиске</p>
+                </div>
+              </li>
+              <li class="bonuses__card">
+                <span class="bonuses__number">03</span>
+                <div class="bonuses__card-container">
+                  <p class="bonuses__text">Бесплатная поддержка продукта на протяжении 6 месяцев</p>
+                </div>
+              </li>
+            </ul>
+            <div class="bonuses__form">
+              <h4 class="bonuses__subtitle">Заполните форму и получите бонусы</h4>
+              <div class="bonuses__form-inner">
+                <input class="bonuses__email" type="email" name="email" id="email" placeholder="Ваша почта" autocomplete="off">
+                <a class="bonuses__button" href="#">Заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__team team">
+        <h1 class="team__title">Наша команда</h1>
+        <div class="team__inner">
+          <div class="team-slider">
+            <div class="team__slide">
+              <div class="team__image-box">
+                <img src="/img/team/photo.jpg" alt="Product Manager" class="team__photo">
+                <div class="team__blur"></div>
+              </div>
+              <div class="team__info">
+                <h4 class="team__fullname">Василиса Леонова</h4>
+                <p class="team__post">Product Manager</p>
+              </div>
+            </div>
+            <div class="team__slide">
+              <div class="team__image-box">
+                <img src="/img/team/photo-1.jpg" alt="Designer" class="team__photo">
+                <div class="team__blur"></div>
+              </div>
+              <div class="team__info">
+                <h4 class="team__fullname">Милана Ли</h4>
+                <p class="team__post">Designer</p>
+              </div>
+            </div>
+            <div class="team__slide">
+              <div class="team__image-box">
+                <img src="/img/team/photo-2.jpg" alt="Mobile Developer (iOS)" class="team__photo">
+                <div class="team__blur"></div>
+              </div>
+              <div class="team__info">
+                <h4 class="team__fullname">Анна Ильина</h4>
+                <p class="team__post">Mobile Developer (iOS)</p>
+              </div>
+            </div>
+            <div class="team__slide">
+              <div class="team__image-box">
+                <img src="/img/team/photo-3.jpg" alt="Mobile Developer (Android)" class="team__photo">
+                <div class="team__blur"></div>
+              </div>
+              <div class="team__info">
+                <h4 class="team__fullname">Владимир Егоров</h4>
+                <p class="team__post">Mobile Developer (Android)</p>
+              </div>
+            </div>
+            <div class="team__slide">
+              <div class="team__image-box">
+                <img src="/img/team/photo-4.jpg" alt="Marketing Specialist" class="team__photo">
+                <div class="team__blur"></div>
+              </div>
+              <div class="team__info">
+                <h4 class="team__fullname">Артём Тарасов</h4>
+                <p class="team__post">Marketing Specialist</p>
+              </div>
+            </div>
+            <div class="team__slide">
+              <div class="team__image-box">
+                <img src="/img/team/photo-5.jpg" alt="DevOps-engineer" class="team__photo">
+                <div class="team__blur"></div>
+              </div>
+              <div class="team__info">
+                <h4 class="team__fullname">Анна Успенская</h4>
+                <p class="team__post">DevOps-engineer</p>
+              </div>
+            </div>
+            <div class="team__slide">
+              <div class="team__image-box">
+                <img src="/img/team/photo-6.jpg" alt="Designer" class="team__photo">
+                <div class="team__blur"></div>
+              </div>
+              <div class="team__info">
+                <h4 class="team__fullname">Евгений Савельев</h4>
+                <p class="team__post">Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="team__dots"></div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__form form">
+            <div class="form__container">
+              <section class="form__input-area">
+                <h1 class="form__title">Связь с нами</h1>
+                <div class="form__heading">
+                  <div class="form__input-container">
+                    <p class="form__label-name">Ваше имя</p>
+                    <label class="form__label" for="form__name">
+                      <input class="form__name form__style" type="text" id="form__name" placeholder="Алексей">
+                    </label>
+                  </div>
+                  <div class="form__input-container">
+                    <p class="form__label-name">Эл. почта</p>
+                    <label class="form__label" for="form__email">
+                      <input class="form__email form__style" type="email" id="form__email" placeholder="your@mail.ru">
+                    </label>
+                  </div>
+                </div>
+                <div class="form__input-container">
+                  <p class="form__label-name">Сообщение</p>
+                  <label class="form__label" for="form__advice">
+                    <textarea class="form__advice" name="advice" id="form__advice" rows="5"
+                      placeholder="Привет, я бы хотел..."></textarea>
+                  </label>
+                </div>
+                <button class="form__button button">
+                  <p class="button__text">Отправить</p>
+                </button>
+              </section>
+              <span class="form__or">или</span>
+              <div class="form__options">
+                <div class="form__option form__write">
+                  <h4>Напишите нам</h4>
+                  <h4>13fox.comp@gmail.com</h4>
+                  <p class="form__text">Постараемся ответить вам как можно скорее, как только получим от вас письмо</p>
+                </div>
+                <div class="form__option form__call">
+                  <h4>Позвоните нам</h4>
+                  <h4>+7 (999) 123-45-67</h4>
+                  <p class="form__text">Мы с радостью ответим на все ваши вопросы в рабочее время с 10:00 до 18:00</p>
+                </div>
+                <div class="form__option form__socials">
+                  <h4>Мы в соцсетях</h4>
+                  <div class="socials-container">
+                    <a class="socials__whatsapp social" href="#">
+                      <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M16.5375 28.4812C17.85 29.2688 19.425 29.6625 21 29.6625C25.8562 29.6625 29.6625 25.725 29.6625 21.1312C29.6625 18.7688 28.875 16.6687 27.1688 14.9625C25.4625 13.3875 23.3625 12.4688 21 12.4688C16.275 12.4688 12.3375 16.4062 12.3375 21.1312C12.3375 22.7063 12.7312 24.2812 13.65 25.725L13.9125 26.1188L12.9937 29.2688L16.275 28.35L16.5375 28.4812ZM23.8875 22.3125C24.15 22.3125 25.4625 22.9688 25.725 23.1C25.7659 23.1204 25.8068 23.1377 25.8471 23.1547C26.0661 23.2472 26.2704 23.3334 26.3813 23.8875C26.5125 23.8875 26.5125 24.4125 26.25 25.0687C26.1188 25.5938 25.0688 26.25 24.5438 26.25C24.4548 26.25 24.3696 26.2575 24.2787 26.2656C23.8326 26.305 23.247 26.3568 21.3937 25.5938C19.0936 24.6737 17.4989 22.4436 17.0511 21.8174C16.9879 21.7289 16.9475 21.6725 16.9312 21.6562C16.9089 21.6116 16.8637 21.5402 16.8041 21.4462C16.5138 20.9877 15.8813 19.989 15.8813 18.9C15.8813 17.5875 16.5375 16.9313 16.8 16.6687C17.0625 16.4062 17.325 16.4062 17.4562 16.4062H17.9813C18.1125 16.4062 18.375 16.4062 18.5063 16.8C18.7688 17.325 19.2938 18.6375 19.2938 18.7688C19.2938 18.8125 19.3083 18.8563 19.3229 18.9C19.3521 18.9875 19.3813 19.075 19.2938 19.1625C19.2281 19.2281 19.1953 19.2937 19.1625 19.3594C19.1297 19.425 19.0969 19.4906 19.0312 19.5563L18.6375 19.95C18.5063 20.0813 18.375 20.2125 18.5063 20.475C18.6375 20.7375 19.1625 21.6562 19.95 22.3125C20.8361 23.0878 21.5352 23.3958 21.8897 23.5519C21.9552 23.5808 22.009 23.6045 22.05 23.625C22.3125 23.625 22.4438 23.625 22.575 23.4938C22.6406 23.3625 22.8047 23.1656 22.9688 22.9688C23.1328 22.7719 23.2969 22.575 23.3625 22.4437C23.4937 22.1813 23.625 22.1813 23.8875 22.3125Z"
+                          fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M0 6.5625C0 2.93813 2.93813 0 6.5625 0H35.4375C39.0619 0 42 2.93813 42 6.5625V35.4375C42 39.0619 39.0619 42 35.4375 42H6.5625C2.93813 42 0 39.0619 0 35.4375V6.5625ZM21 10.5C23.7562 10.5 26.3813 11.55 28.35 13.5188C30.3188 15.4875 31.5 18.1125 31.5 20.8688C31.5 26.6438 26.775 31.3688 21 31.3688C19.2937 31.3688 17.5875 30.8438 16.0125 30.0563L10.5 31.5L11.9438 26.25C11.025 24.675 10.5 22.8375 10.5 21C10.5 15.225 15.225 10.5 21 10.5Z"
+                          fill="white" />
+                      </svg>
+                    </a>
+                    <a class="socials__instagram social" href="#">
+                      <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M21 24.675C19.0312 24.675 17.325 23.1 17.325 21C17.325 19.0312 18.9 17.325 21 17.325C22.9688 17.325 24.675 18.9 24.675 21C24.675 22.9687 22.9688 24.675 21 24.675Z"
+                          fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M25.4625 12.075H16.5375C15.4875 12.2062 14.9625 12.3375 14.5688 12.4687C14.0438 12.6 13.65 12.8625 13.2563 13.2562C12.9447 13.5678 12.7975 13.8794 12.6195 14.256C12.5726 14.3552 12.5235 14.4593 12.4688 14.5687C12.4484 14.6297 12.425 14.6937 12.3999 14.7624C12.2626 15.1375 12.075 15.6499 12.075 16.5375V25.4625C12.2063 26.5125 12.3375 27.0375 12.4688 27.4312C12.6 27.9562 12.8625 28.35 13.2563 28.7437C13.5678 29.0553 13.8794 29.2025 14.256 29.3805C14.3553 29.4274 14.4592 29.4765 14.5688 29.5312C14.6297 29.5515 14.6937 29.575 14.7624 29.6001C15.1375 29.7374 15.6499 29.925 16.5375 29.925H25.4625C26.5125 29.7937 27.0375 29.6625 27.4312 29.5312C27.9562 29.4 28.35 29.1375 28.7437 28.7437C29.0553 28.4322 29.2025 28.1206 29.3805 27.744C29.4274 27.6447 29.4765 27.5408 29.5312 27.4312C29.5516 27.3703 29.575 27.3063 29.6001 27.2376C29.7374 26.8625 29.925 26.3501 29.925 25.4625V16.5375C29.7937 15.4875 29.6625 14.9625 29.5312 14.5687C29.4 14.0437 29.1375 13.65 28.7437 13.2562C28.4322 12.9447 28.1206 12.7975 27.744 12.6195C27.6448 12.5727 27.5406 12.5234 27.4312 12.4687C27.3703 12.4484 27.3063 12.425 27.2376 12.3999C26.8625 12.2626 26.3501 12.075 25.4625 12.075ZM21 15.3562C17.85 15.3562 15.3562 17.85 15.3562 21C15.3562 24.15 17.85 26.6437 21 26.6437C24.15 26.6437 26.6437 24.15 26.6437 21C26.6437 17.85 24.15 15.3562 21 15.3562ZM28.0875 15.225C28.0875 15.9499 27.4999 16.5375 26.775 16.5375C26.0501 16.5375 25.4625 15.9499 25.4625 15.225C25.4625 14.5001 26.0501 13.9125 26.775 13.9125C27.4999 13.9125 28.0875 14.5001 28.0875 15.225Z"
+                          fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M0 6.5625C0 2.93813 2.93813 0 6.5625 0H35.4375C39.0619 0 42 2.93813 42 6.5625V35.4375C42 39.0619 39.0619 42 35.4375 42H6.5625C2.93813 42 0 39.0619 0 35.4375V6.5625ZM16.5375 10.1062H25.4625C26.6437 10.2375 27.4312 10.3687 28.0875 10.6312C28.875 11.025 29.4 11.2875 30.0562 11.9437C30.7125 12.6 31.1063 13.2562 31.3688 13.9125C31.6313 14.5687 31.8937 15.3562 31.8937 16.5375V25.4625C31.7625 26.6437 31.6313 27.4312 31.3688 28.0875C30.975 28.875 30.7125 29.4 30.0562 30.0562C29.4 30.7125 28.7437 31.1062 28.0875 31.3687C27.4312 31.6312 26.6437 31.8937 25.4625 31.8937H16.5375C15.3563 31.7625 14.5688 31.6312 13.9125 31.3687C13.125 30.975 12.6 30.7125 11.9438 30.0562C11.2875 29.4 10.8938 28.7437 10.6313 28.0875C10.3688 27.4312 10.1062 26.6437 10.1062 25.4625V16.5375C10.2375 15.3562 10.3688 14.5687 10.6313 13.9125C11.025 13.125 11.2875 12.6 11.9438 11.9437C12.6 11.2875 13.2563 10.8937 13.9125 10.6312C14.5688 10.3687 15.3563 10.1062 16.5375 10.1062Z"
+                          fill="white" />
+                      </svg>
+                    </a>
+                    <a class="socials__telegram social" href="#">
+                      <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6.5625 0H35.4375C39.0619 0 42 2.93813 42 6.5625V35.4375C42 39.0619 39.0619 42 35.4375 42H6.5625C2.93813 42 0 39.0619 0 35.4375V6.5625C0 2.93813 2.93813 0 6.5625 0ZM21.9081 15.7597C20.0272 16.542 16.2683 18.1611 10.6311 20.6171C9.71576 20.9812 9.23624 21.3373 9.19259 21.6855C9.11881 22.274 9.85575 22.5057 10.8593 22.8212C10.9958 22.8642 11.1372 22.9086 11.2822 22.9558C12.2695 23.2767 13.5977 23.6522 14.2881 23.6671C14.9144 23.6806 15.6134 23.4224 16.3851 22.8925C21.6521 19.3372 24.3709 17.5401 24.5416 17.5014C24.662 17.474 24.8289 17.4397 24.9419 17.5402C25.055 17.6407 25.0439 17.831 25.0319 17.882C24.9589 18.1933 22.0661 20.8826 20.5691 22.2744C20.1024 22.7083 19.7714 23.016 19.7037 23.0863C19.5521 23.2438 19.3976 23.3927 19.2491 23.5359C18.3319 24.4201 17.6441 25.0832 19.2872 26.166C20.0769 26.6864 20.7087 27.1167 21.3391 27.546C22.0275 28.0148 22.7142 28.4824 23.6026 29.0648C23.8289 29.2131 24.0451 29.3672 24.2557 29.5173C25.0568 30.0885 25.7766 30.6016 26.6659 30.5198C27.1826 30.4723 27.7163 29.9864 27.9874 28.5373C28.628 25.1127 29.8872 17.6926 30.1782 14.635C30.2037 14.3671 30.1716 14.0243 30.1458 13.8738C30.1201 13.7232 30.0662 13.5088 29.8706 13.3501C29.6389 13.1621 29.2813 13.1224 29.1213 13.1251C28.394 13.1381 27.2781 13.5261 21.9081 15.7597Z"
+                          fill="white" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="/js/mousemove.js"></script>
+  <script src="/js/get-price.js"></script>
+
+</body>
+
+</html>

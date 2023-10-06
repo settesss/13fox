@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 65.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_28);
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_28" data-name="Безымянный градиент 28" x1="0" y1="32.96" x2="96" y2="32.96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b12ad"/>
+      <stop offset=".2" stop-color="#5a17a3"/>
+      <stop offset=".58" stop-color="#83248a"/>
+      <stop offset=".69" stop-color="#912982"/>
+      <stop offset=".78" stop-color="#942f6f"/>
+      <stop offset=".96" stop-color="#9e3f40"/>
+      <stop offset="1" stop-color="#a04337"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="m0,9.38L9.38.05h16.96v52.68h13.19v13.19H0v-13.19h13.19V13.19H0v-3.82Zm82.81,3.82h-26.34V0h30.2l9.33,9.38v20.82l-2.76,2.76,2.76,2.76v20.82l-9.33,9.38h-30.2v-13.19h26.34v-13.15h-26.34v-13.19h26.34v-13.19Z"/>
+</svg>

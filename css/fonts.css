@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Grava;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src:  local("Grava"), 
+        url("../fonts/Grava-SemiBold.woff2") format("woff2"),
+        url("../fonts/Grava-SemiBold.woff") format("woff"),
+        url("../fonts/Grava-SemiBold.eot") format("eot");
+}
+
+@font-face {
+  font-family: Grava;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:  local("Grava"), 
+        url("../fonts/Grava-Normal.woff2") format("woff2"),
+        url("../fonts/Grava-Normal.woff") format("woff"),
+        url("../fonts/Grava-Normal.eot") format("eot");
+}
+
+@font-face {
+  font-family: 'Grava Display';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src:  local("Grava Display"), 
+        url("../fonts/Grava-SemiBold.woff2") format("woff2"),
+        url("../fonts/Grava-SemiBold.woff") format("woff"),
+        url("../fonts/Grava-SemiBold.eot") format("eot");
+}
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:  local("Lato"), 
+        url("../fonts/Manrope-Regular.woff2") format("woff2"),
+        url("../fonts/Manrope-Regular.woff") format("woff"),
+        url("../fonts/Manrope-Regular.eot") format("eot");
+}
+
+@font-face {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:  local("Raleway"), 
+        url("../fonts/Raleway-Regular.woff2") format("woff2"),
+        url("../fonts/Raleway-Regular.woff") format("woff"),
+        url("../fonts/Raleway-Regular.eot") format("eot");
+}
+

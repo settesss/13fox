@@ -1,0 +1,94 @@
+/* ===================================== OPPORTUNITIES ===================================== */
+/* ===================================== OPPORTUNITIES ===================================== */
+
+.main {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  max-width: 495px;
+  margin-right: 60px;
+}
+
+.heading__title {
+  padding-bottom: 40px;
+  letter-spacing: -1.44px;
+}
+
+.heading__text {
+  padding-bottom: 30px;
+}
+
+.slider-arrow path {
+  transition: all 0.3s;
+}
+
+.slider-arrow:hover path {
+  stroke: #9B5DE5;
+}
+
+.slider-arrow circle {
+  transition: all 0.3s;
+}
+
+.slider-arrow:hover circle {
+  stroke: #9B5DE5;
+}
+
+.arrows {
+  display: inline-block;
+}
+
+.slider-prev {
+  margin-right: 20px;
+}
+
+.slider-container {
+  margin: auto;
+}
+
+.slider {
+  display: flex;
+  min-width: 0;
+}
+
+.slide {
+  flex-shrink: 0;
+  max-width: 495px;
+  padding: 40px;
+  margin-right: 40px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.60);
+  background: linear-gradient(157deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.10) 100%);
+  box-shadow: 20px 30px 100px 20px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(20px);
+}
+
+.slide:last-child {
+  margin-right: 0px;
+  display: none;
+}
+
+.slide-number {
+  padding-bottom: 40px;
+  color: rgba(155, 93, 229, 0.60);
+  font-family: Grava;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.slide-title {
+  padding-bottom: 20px;
+}
+
+.slide-text {
+  letter-spacing: -0.6px;
+}

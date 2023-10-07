@@ -214,7 +214,7 @@ a {
 
 .header__nav-link::before {
   position: absolute;
-  top: 3px;
+  top: 0;
   left: 0;
   overflow: hidden;
   max-width: 0;
